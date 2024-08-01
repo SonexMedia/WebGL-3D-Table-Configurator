@@ -1,0 +1,463 @@
+body
+{
+	top			: 0px;
+	left		: 0px;
+	margin		: 0px;
+	padding		: 0px;
+	overflow	: auto;
+	width 		: 100%;
+	height 		: 100%;
+	min-height 	: 500px;
+	background	: url("../img/bg_pattern.png") repeat;
+	/*background-size: 100% 100%;*/
+}
+
+ul 				{list-style: none;}
+ul li 			{float 	: left;}
+
+sup 			{text-transform: uppercase;}
+
+.f_r 			{float 	: right !important;}
+.clear_both 	{clear 	: both;}
+
+.content-area
+{
+	width 		: 1024px;
+	margin 		: 0px auto;
+	position 	: relative;
+}
+
+ul.content-area
+{
+	padding 	: 0px;
+}
+
+#header-area
+{
+	width 		: 100%;
+	height 		: 50px;
+	background 	: #3c3a3a;
+}
+
+#header-area li img
+{
+	margin-top 	: 20px;
+	cursor 		: pointer;
+}
+
+#header-area li:nth-child(2) img
+{
+	margin-top 	: 13px;
+	margin-left : 150px;
+}
+
+#header-area li:nth-child(3) img
+{
+	margin-top 	: 15px;
+}
+
+#login-area
+{
+	width 		: 100%;
+	height 		: 50px;
+	background 	: #97b606;
+}
+
+#login-area img
+{
+	margin-top 	: 15px;
+}
+
+#login-area input[type="text"]
+{
+	background-color 	: transparent;
+	border 				: 1px solid white;
+	height 				: 25px;
+	width 				: 140px;
+	margin-top 			: 13px;
+	margin-left 		: 8px;
+	float 				: right;
+	padding-left 		: 10px;
+}
+
+#login-area input:nth-child(3)
+{
+	margin-left 		: 25px;
+}
+
+::-webkit-input-placeholder
+{
+	color 				: #c2d665;
+}
+
+:-moz-placeholder
+{
+	color 				: #c2d665;
+}
+
+::-moz-placeholder
+{
+	color 				: #c2d665;
+}
+
+:-ms-input-placeholder
+{
+	color 				: #c2d665;
+}
+
+#main-area
+{
+	margin-top 			: 30px;
+}
+
+#menu-body
+{
+
+}
+
+#btn_logo
+{
+	float 		: left;
+	margin-right: 20px;
+}
+
+#render-area
+{
+	height 		: 400px;
+	position 	: relative;
+}
+
+#render-area canvas
+{
+	background-color: white;
+}
+
+#render-area .zoomin
+{
+	width 		: 1024px;
+	height 		: 585px;
+	z-index 	: 999;
+	position 	: absolute;
+	box-shadow 	: 0px 0px 100px gray;
+	background-color : white;
+}
+
+#price_area
+{
+	width 		: 100%;
+	height 		: 50px;
+	background 	: #3c3a3a;
+	position 	: relative;
+}
+
+#canvas-area
+{
+	margin-top 	: 130px;
+	border 		: 1px solid #e8e8e8;
+	background 	: white;
+}
+
+#price_area h3
+{
+	color 			: white;
+	float 			: left;
+	margin 			: 0px;
+	margin-left 	: 20px;
+	line-height 	: 50px;
+	padding 		: 0px;
+	font-family 	: monospace;
+	font-size 		: 28px;
+}
+
+#price_area h5
+{
+	color 			: white;
+	float 			: right;
+	margin 			: 0px; 
+	padding 		: 0px;
+	margin-top 		: 7px;
+	font-family 	: sans-serif;
+	font-size 		: 16px;
+	right 			: 50px;
+	font-weight 	: normal;
+	position 		: absolute;
+}
+
+#price_area h6
+{
+	color 			: white;
+	float 			: right;
+	margin 			: 0px; 
+	padding 		: 0px;
+	margin-top 		: 30px;
+	font-family 	: sans-serif;
+	font-size 		: 14px;
+	right 			: 50px;
+	font-weight 	: normal;
+	position 		: absolute;
+}
+
+#btn-menu ul
+{
+	float 			: normal;
+}
+
+#control-area
+{
+	width 			: 325px;
+	height 			: 400px;
+	position 		: absolute;
+	top 			: 0px;
+	right 			: 0px;
+}
+
+#control-area #info-menu
+{
+	width 			: 275px;
+	height 			: 400px;
+	float 			: left;
+	background 		: #ebebeb;
+}
+
+#control-area #info-menu h3
+{
+	margin 			: 0px;
+	padding 		: 0px;
+	height 			: 20px;
+	color 			: white;
+	font-size 		: 14px;
+	font-family 	: arial;
+	font-weight 	: normal;
+	line-height 	: 20px;
+	padding-left 	: 25px;
+	cursor 			: pointer;
+	background 		: url(../img/icon_drop_right.png) no-repeat #737272;
+	background-position : 10px 5px;
+}
+
+#control-area #material-section .list-tab
+{
+	margin-top 		: 15px;
+	margin-bottom 	: -10px;
+}
+
+#control-area #info-menu .sel
+{
+	height 			: 380px;
+}
+
+#control-area #info-menu section
+{
+	height 			: 20px;
+	overflow 		: hidden;
+}
+
+#control-area #info-menu .sel h3
+{
+	background 		: url(../img/icon_drop.png) no-repeat #3c3a3a;
+	background-position : 10px 8px;
+}
+
+#control-area #btn-menu
+{
+	width 			: 50px;
+	height 			: 400px;
+	float 			: left;
+	background 		: #97b606;
+}
+
+#control-area #btn-menu ul
+{
+	margin 			: 0px;
+	padding 		: 0px;
+}
+
+#control-area #btn-menu ul li:first-child
+{
+	margin-top 		: 50px;
+}
+
+#control-area #btn-menu ul li
+{
+	float 			: initial;
+	margin-left 	: 13px;
+	margin-top 		: 13px;
+	cursor 			: pointer;
+}
+
+#control-area .list-tab
+{
+	margin 			: 30px auto;
+	padding 		: 0px;
+	height 			: 30px;
+	width 			: 160px;
+	background 		: white;
+}
+
+#control-area .list-tab li
+{
+	width 			: 80px;
+	font-size 		: 13px;
+	font-weight 	: bold;
+	text-align 		: center;
+	line-height 	: 30px;
+	font-family 	: monospace;
+	cursor 			: pointer;
+}
+
+#control-area .list-tab .active
+{
+	background 		: black;
+	color 			: white;
+}
+
+.info-body dd
+{
+	float 			: left;
+	margin 			: 0px;
+	padding 		: 0px;
+	margin-left 	: 10px;
+	margin-right 	: 10px;
+	color 			: #97b606;
+	font-family 	: arial;
+	font-size 		: 14px;
+	line-height 	: 20px;
+	float 			: left;
+	margin-right 	: 0px;
+}
+
+.info-body dd input[type="text"]
+{
+	width 			: 50px;
+	border 			: 0px none;
+	color 			: #97b606;
+	margin-top 		: 2px;
+	margin-right 	: 35px;
+	text-align 		: center;
+}
+
+.slider
+{
+	width 			: 220px !important;
+	height 			: 2px !important;
+	background-color: #c1c1c1 !important;
+	border-radius 	: initial !important;
+	margin-left 	: 20px !important;
+	margin-top 		: 20px !important;
+}
+
+.slider a
+{
+	border 			: 0px none !important;
+	width 			: 3px !important;
+	height 			: 12px !important;
+	cursor 			: pointer !important;
+	margin 			: 0px !important;
+	background-color: #767575 !important;
+}
+
+.ui-slider-range
+{
+	background 		: #767575 !important;
+}
+
+.info-body block ul
+{
+	font-family 	: sans-serif;
+	font-size 		: 11px;
+	font-weight 	: bold;
+	width 			: 185px;
+}
+
+.info-body block ul li:last-child
+{
+	float 			: right;
+}
+
+.info-body .tab-body
+{
+	display 		: none;
+}
+
+.info-body .tab-body li img
+{
+	width 		: 62px;
+	border 		: 1px solid #666;
+	margin 		: 10px;
+	margin-left : 20px;
+	cursor 		: pointer;
+}
+
+.info-body .tab-body li center
+{
+	font-family : arial;
+	font-size 	: 13px;
+	font-weight : bold;
+}
+
+.info-body .active
+{
+	display 		: block;
+}
+
+#mtl-reg-list li
+{
+	/*width 			: 92px;
+	height 			: 92px;
+	border 			: 1px solid gray;
+	margin 			: 7px;*/
+	cursor 			: pointer;
+}
+
+#mtl-reg-list li center
+{
+	/*line-height 	: 92px;*/
+}
+
+.canvas_btns
+{
+	position 		: absolute;
+	cursor 			: pointer;
+}
+
+#btn_expand
+{
+	left 			: 20px;
+	top 			: 10px;
+	z-index 		: 200000;
+}
+
+#btn_zoom
+{
+	z-index 		: 200000;
+}
+
+#btn_zoom
+{
+	left 			: 10px;
+	bottom 			: 70px;
+	cursor 			: auto;
+}
+
+#btn_cart
+{
+	left 			: 570px;
+	bottom 			: 70px;
+}
+
+#btn_zoomin
+{
+	width 			: 10px;
+	height 			: 15px;
+	cursor  		: pointer;
+	position 		: absolute;
+}
+
+#btn_zoomout
+{
+	width 			: 10px;
+	height 			: 15px;
+	margin-left 	: 60px;
+	cursor 			: pointer;
+	position 		: absolute;
+}

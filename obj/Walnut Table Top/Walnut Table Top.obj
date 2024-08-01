@@ -1,0 +1,53 @@
+# Alias OBJ Model File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+# File units = inches
+
+mtllib Walnut Table Top.mtl
+
+g Mesh1 Group1 Model
+
+usemtl walnut
+v 0 28.375 -0
+vt 0 0
+vn 0 -1 -0
+v 0 28.375 -36
+vt 0 5
+v 72 28.375 -36
+vt -1 5
+v 72 28.375 -0
+vt -1 0
+f 1/1/1 2/2/1 3/3/1 4/4/1 
+
+usemtl walnut_edge
+vt -5 0
+vn -1 0 -0
+v 0 30 -0
+vt 0 0.0325
+v 0 30 -36
+vt -5 0.0325
+f 2/5/2 1/1/2 5/6/2 6/7/2 
+
+usemtl walnut
+vn 0 0 1
+vt 1 0
+v 72 30 -0
+vt 1 0.225694
+vt 0 0.225694
+f 1/1/3 4/8/3 7/9/3 5/10/3 
+
+usemtl walnut_edge
+vn 1 0 -0
+vt 5 0
+v 72 30 -36
+vt 5 0.0325
+f 4/1/4 3/11/4 8/12/4 7/6/4 
+
+usemtl walnut
+vn 0 0 -1
+vt -1 0.225694
+f 3/4/5 2/1/5 6/10/5 8/13/5 
+
+vn 0 1 -0
+vt 1 5
+f 6/2/6 5/1/6 7/8/6 8/14/6 
+

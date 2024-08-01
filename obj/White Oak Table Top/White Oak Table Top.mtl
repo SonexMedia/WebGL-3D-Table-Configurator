@@ -1,0 +1,16 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl white_oak
+Ka 0.000000 0.000000 0.000000
+Kd 0.737255 0.588235 0.423529
+Ks 0.330000 0.330000 0.330000
+map_Kd white_oak_square.jpg
+
+newmtl white_oak_edge
+Ka 0.000000 0.000000 0.000000
+Kd 0.737255 0.588235 0.423529
+Ks 0.330000 0.330000 0.330000
+map_Kd white_oak_square.jpg
+
